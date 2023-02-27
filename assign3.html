@@ -97,6 +97,7 @@
                     document.getElementById('demo').innerHTML = name + ' has scored C- ';
 
                 }
+                // for D+ grade purpose
                 else if(marks>=67&&marks<=69)
                 {
                     document.getElementById('demo').innerHTML = name + ' has scored D+ ' ;
@@ -107,11 +108,14 @@
                     document.getElementById('demo').innerHTML = name  + 'has scored D ';
 
                 }
-                else{
+                else if(marks>66&&marks<=65)  
+                {
                     document.getElementById('demo').innerHTML = name + ' has scored E ';
-
                 }
-                //  Here i am using for marks 
+                else{
+                    document.getElementById('demo').innerHTML = name + ' Invalid Input';
+                }
+                
                 document.getElementById('marks').value=''
             }
         }

@@ -14,11 +14,13 @@ function fun(){
         temp=document.getElementById("resPara");
         temp.style.display="block";
         if(num%2==0)
-    // if input is even number then it will give you Even
+        // if input is even number then it will give you Even
         document.getElementById("res").innerHTML="Even";
-        else
+        else if(num%2==1.1)
         // if  input is odd number then it will give you Odd one 
         document.getElementById("res").innerHTML="Odd";
+        else
+        document.getElementById("res").innerHTML="invalid";
     }
 }
 </script>
