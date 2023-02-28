@@ -1,3 +1,4 @@
+//dispay system information
 var os=require('os');
 console.log('OS Type:' +os.type());
 console.log('Platform:' +os.platform());
