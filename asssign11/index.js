@@ -1,5 +1,9 @@
 const readline = require('readline')
+<<<<<<< HEAD
 //Taking Input From User
+=======
+
+>>>>>>> 4974f4a1006091c0944f9e249f4b2e727aaef011
 const express = require('express')
 const app = express()
 
